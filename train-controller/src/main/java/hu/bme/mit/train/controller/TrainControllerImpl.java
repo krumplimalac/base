@@ -46,6 +46,9 @@ public class TrainControllerImpl implements TrainController {
 		this.step = joystickPosition;		
 	}
 
-	
+	@Override
+	public int getJoystickPosition(){
+		return this.step;
+	}
 
 }

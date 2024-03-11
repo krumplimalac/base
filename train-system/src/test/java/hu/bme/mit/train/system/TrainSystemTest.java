@@ -59,5 +59,12 @@ public class TrainSystemTest {
 		Assert.assertEquals(0,controller.getReferenceSpeed());
 	}
 
+	@Test
+	public void TachographTest() {
+		Assert.assertEquals(true,sensor.getTachograpch().isEmpty());
+		sensor.addToTachograph();
+		Assert.assertEquals(false,sensor.getTachograpch().isEmpty());
+	}
+
 	
 }
