@@ -31,7 +31,7 @@ public class TrainUserImpl implements TrainUser {
 	@Override
 	public void pushEmergencyBrakeButton(){
 		this.joystickPosition = -1;
-		controller.setJoystickPosition(-1);
+		controller.setJoystickPosition(-1)
 	}
 
 }
