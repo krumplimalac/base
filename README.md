@@ -70,5 +70,6 @@ ebben a szövegben *ez más*
 1. listaelem 1
 2. listaelem 2
   * allista
+  * allista2
 
 
