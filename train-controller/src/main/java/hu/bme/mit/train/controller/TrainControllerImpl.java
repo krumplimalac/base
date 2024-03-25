@@ -7,11 +7,11 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
-	private Thread thread;
+	private Thread thread; //comment
 
 	public TrainControllerImpl(){
 		this.thread = new Thread() {
-			public void run(){
+			public void run() {
 				thread.run();
 				try {
 					thread.sleep(1000);
